@@ -21,4 +21,5 @@ cacheSolve<- function(x,...){
   p<-x$get()
   l <-solve(p,...)
   x$ setInv(l)
-  l }
+  l 
+  }
