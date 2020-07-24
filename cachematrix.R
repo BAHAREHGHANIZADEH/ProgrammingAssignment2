@@ -13,6 +13,7 @@ makeCacheMatrix<- function(x=matrix()) {
   getInv <-function() {l}
   list(set=set , get=get ,setInv=setInv , getInv=getInv)}
 cacheSolve<- function(x,...){
+  ## Return a matrix that is the inverse of 'x'
   l<-x$getInv()
   if(!is.null(l)){
     message("GCD")
